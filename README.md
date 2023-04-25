@@ -43,10 +43,12 @@ Your VPC has an implicit router, and you use route tables to control where netwo
 - On AWS website type VPC in the search bar and then in Services select VPC
 - On the new page select Create VPC
 - Complete the VCP settings as following:
+```
 VPC Only
 'your name'-tech221-vcp - name
 IPv4 CIDR set to 10.0.0.0/16
 Leave the rest as default
+```
 3. Create AMI's of your app and database instances
 4. In the VPC dashboard select Internet Gateways
 - Select Create internet gateway
@@ -73,9 +75,11 @@ Leave the rest as default
 - Select the VPC and the public subnet
 - Enable auto assign public ip
 - Select create security group and add the following rules:
+```
 SSH, source type: My ip
 HTTP, Source type: anywhere
 Custom TCP, Source type: anywhere, Port: 3000
+```
 - Launch the instance
 #
 ---Database Instance---
