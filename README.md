@@ -40,8 +40,13 @@ Your VPC has an implicit router, and you use route tables to control where netwo
 ---APP Instance---
 
 1. Head to the VPC dashboard in AWS and Create a VPC
--
--
+- On AWS website type VPC in the search bar and then in Services select VPC
+- On the new page select Create VPC
+- Complete the VCP settings as following:
+VPC Only
+'your name'-tech221-vcp - name
+IPv4 CIDR set to 10.0.0.0/16
+Leave the rest as default
 3. Create AMI's of your app and database instances
 4. In the VPC dashboard select Internet Gateways
 - Select Create internet gateway
