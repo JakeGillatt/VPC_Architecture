@@ -101,7 +101,7 @@ Custom TCP, Source type: anywhere, Port: 3000
 - Select the VPC and the private subnet
 - Disable auto assign public ip
 - Select create security group and add the following rule:
-Custom TCP, source type: anywhere, Port: 27017
+- Custom TCP, source type: anywhere, Port: 27017
 - Launch the instance
 4. In your git bash terminal SSH into the app instance
 5. Edit your .bashrc file and add the new IP for the database
